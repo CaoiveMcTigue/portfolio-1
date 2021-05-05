@@ -17,12 +17,13 @@ h1, h2 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: #2f4f4f;
 }
 
-/* #header-style{
+#header-style{
     color: #faebd7;
-    background-color: #fff0f5;
-} */
+    
+}
 
 /* logo */
 #logo{
@@ -30,16 +31,17 @@ h1, h2 {
     font-size: 300%;
     color: #2f4f4f;
     letter-spacing: 6px;
+    margin-left: 25px;
 }
 
 /* Nav Links */
 #page-links{
     font-size: 180%;
     letter-spacing: 4px;
+    color: #2f2f2f
 }
 #page-links, #logo{
     line-height: 75px;
-
 }
 #page-links li{
     float: right;
@@ -78,10 +80,108 @@ h1, h2 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    width: 350px;
+    text-align: center;
+    width: 400px;
     height: 150px;
     background-color: rgba(255, 182, 193, .5);
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+/* info section */
+#information{
+    height: 500px;
+    background-color: rgb(255, 182, 193);
+}
+#right{
+    padding-top: 25px;
+    width: 33%;
+    float: right;
+}
+#left{
+    padding-top: 25px;
+    width: 33%;
+    float: left;
+    margin-left: 25px;
+}
+#center{
+    width: 33%;
+    margin: 0 auto;
+}
+hr{
+    border-top: 2px solid black;
+    width: 100%;
+    margin: 5px;
+}
+.left-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-heading{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-heading a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid black;
+}
+.right-heading a:hover{
+    border: 2px solid black;
+}
+#container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(255, 182, 193);
+    border-width: 2px;
+    margin: 0 auto;
+}
+#container-bg{
+    background: url("../images/relax.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+#classes{
+    font-size: 120%;
+    color: #2f2f2f;
+    text-align: center;
+}
+.class-info{
+    background-color: blueviolet;
+    height: 400px;
+    width: 100%;
+    background: url("../images/yoga-class-1.jpeg") no-repeat center center;
+    background-size: cover;
+    color: #2f2f2f;
+    font-size: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+.class-info h2{
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    font-size: 400%;
+    color: #2f2f2f;
+}
+.class-left{
+    height: 100px;
+    width: 33%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(255, 182, 193);
+    background-color: rgb(255, 182, 193);
 }
