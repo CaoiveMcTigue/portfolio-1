@@ -149,6 +149,7 @@ hr{
     background-size: cover;
     height: 100%;
 }
+/*Classes banner*/
 #classes{
     font-size: 120%;
     color: #2f2f2f;
@@ -192,6 +193,8 @@ hr{
 }
 .class-left a:hover{
     border: 2px solid black;}
+
+/*Staff Information Section */
 #staff{
     height: 400px;
     width: 100%;
@@ -210,4 +213,21 @@ hr{
     padding-top: 25px;
     width: 25%;
     float: right;
+}
+/* Footer */
+footer{
+    height: 150px;
+}
+footer ul{
+    text-align: center;
+}
+footer li{
+    display: inline;
+}
+footer i{
+    font-size: 150%;
+    margin: 2%;
+    margin-top: 0%;
+    padding: 6%;
+    color: #2f2f2f;
 }
