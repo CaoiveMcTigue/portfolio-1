@@ -90,7 +90,7 @@ h1, h2 {
 }
 /* info section */
 #information{
-    height: 500px;
+    height: 510px;
     background-color: rgb(255, 182, 193);
 }
 #right{
@@ -184,4 +184,30 @@ hr{
     margin-bottom: 50px;
     border: 1px solid rgb(255, 182, 193);
     background-color: rgb(255, 182, 193);
+}
+.class-left a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid black;
+}
+.class-left a:hover{
+    border: 2px solid black;}
+#staff{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 182, 193)
+}
+.staff-image img{
+    height: 300px;
+    width: 300px;
+}
+#staff1, #staff2{
+    padding-top: 25px;
+    width: 25%;
+    float: left;
+}
+#staff4, #staff3{
+    padding-top: 25px;
+    width: 25%;
+    float: right;
 }
