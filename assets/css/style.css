@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    background-color: rgb(255, 182, 193);
 }
 body{
     font-family: Roboto, sans-serif;
@@ -152,11 +153,9 @@ hr{
 /*Classes banner*/
 #classes{
     font-size: 120%;
-    color: #2f2f2f;
-    text-align: center;
+
 }
 .class-info{
-    background-color: blueviolet;
     height: 400px;
     width: 100%;
     background: url("../images/yoga-class-1.jpeg") no-repeat center center;
@@ -165,22 +164,15 @@ hr{
     font-size: 100%;
     overflow: hidden;
     position: relative;
-    
-}
-.class-info h2{
-    padding-top: 25px;
-    text-transform: uppercase;
-    font-family: Raleway, sans-serif;
-    text-align: center;
-    font-size: 400%;
-    color: #2f2f2f;
 }
 .class-left{
-    height: 100px;
+    height: 60px;
     width: 33%;
     float: left;
     line-height: 20px;
     clear: both;
+    text-align: center;
+    padding-top: 25px;
     margin-left: 25px;
     margin-bottom: 50px;
     border: 1px solid rgb(255, 182, 193);
