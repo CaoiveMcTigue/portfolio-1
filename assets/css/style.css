@@ -229,18 +229,9 @@ table{
     position: center;
     background-color: white;
 }
-#table1 td{
-    background-color: red;
-}
-#table2{
-    background-color: blue;
-}
-#table3{
-    background-color: green;
-}
-
 
 table, th, td {
     border: 1px solid black;
     padding: 15px;
 }
+
