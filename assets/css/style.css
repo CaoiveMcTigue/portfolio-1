@@ -261,3 +261,15 @@ th{
 td:hover{
     background-color: rgb(255, 182, 193);
 }
+
+#left-member{
+    background-color: brown;
+}
+
+#right-member{
+    background-color: gold;
+}
+
+#center-member{
+    background-color: silver;
+}
