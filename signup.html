@@ -24,6 +24,48 @@
             </ul>
         </nav>
     </header>
+    <form action="" method="POST">
+        <fieldset class="form-section">
+        <div class="signup-form">
+        <legend>Join Us Today...</legend>
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" class="text-input" type="text" name="full-name" placeholder="Your Name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" class="text-input" type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <label for="age">Age</label>
+        <select id="age" name="age" required>
+            <option value="under-20">Under 20</option>
+            <option value="20s">20-29</option>
+            <option value="30s">30-39</option>
+            <option value="40s">40-49</option>
+            <option value="50s">50-59</option>
+            <option value="60+">60+</option>
+        </select>
+            <div class="radio-button">
+            <p>Would you like to recieve promotional emails?</p>
+            <input id="yes" name="yes" value="yes" type="radio" required>
+            <label for="yes">Yes</label>
+            <input id="no" name="no" value="no" type="radio">
+            <label for="no">No</label>
+
+            <p>Choose a membership plan...</p>
+            <input id="bronze" name="bronze-membership" value="bronze" type="radio" required>
+            <label for="bronze">Bronze Membership</label>
+            <input id="silver" name="silver-membership" value="silver" type="radio">
+            <label for="silver">Sliver Membership</label>
+            <input id="gold" name="gold-membership" value="gold" type="radio">
+            <label for="gold">Gold</label>
+            </div>
+
+            <input class="join-button" type="submit" value="Join Us Today!">
+            <input class="join-button" type="reset" value="Reset Form">
+        </div>
+        </fieldset>
+    </form>
     <footer>
     <ul>
         <li>
