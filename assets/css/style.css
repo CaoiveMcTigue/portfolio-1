@@ -264,6 +264,14 @@ td:hover{
 
 /*Membership details*/
 
+#membership{
+    background-image: url("../images/membershipbg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
 #membership-heading{
     text-align: center;
     text-transform: uppercase;
@@ -272,10 +280,31 @@ td:hover{
     font-weight: bold;
 }
 
-#membership{
-    height: 600px;
+#membership div{
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 100px 0 0 10px;
+    text-align: center;
+    background-color: none;
+    border: 2px solid black;
+    box-sizing: border-box;
 }
 
+
+/* Video */
+
+#video > p {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: 280%;
+    font-weight: bold;
+}
+
+#video > video{
+    padding-left: 200px;
+}
 /*Signup Form*/
 
 .form-section{
@@ -299,6 +328,10 @@ td:hover{
 .signup-form > h2{
     color: #fafafa;
     margin-bottom: 20px;
+}
+
+.signup-form > legend, div, select, label, p{
+    background-color: rgba(60, 60, 60, 0.6);
 }
 
 .text-input{
