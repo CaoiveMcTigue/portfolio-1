@@ -27,6 +27,9 @@ As a user I want to sign up easily at home.
 
 As a user I want to be able to access their social media easily to keep up with details and events.
 
+## Structure
+
+
 When researching along the way, I used sites like:
 W3School - https://www.w3schools.com/default.asp
 Slack - https://slack.com/intl/en-ie/
