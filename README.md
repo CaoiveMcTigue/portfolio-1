@@ -1,52 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+This README file is all about my first project with code insitute. Titled: "You, but Better".
+I decided to build this webpage based off sugguested topic from the brief for this assignment.
+This website should be used for general information on the self care establishment based in Tullamore.
+It has clearly layout information on class times, class instructors, membership packages, membership costs and what you get for your money with each package.
+I've also introduced the staff members displaying a picture, their names and their professional titles.
+Although I would have liked to add more to this website, I found myself working against the clock. With this in mind, going forward I will allocate more time for assignments. I also hope to return to this assignment in the further to make improvements with the new knowledge i hope to have then.
+I definitely have learnt coding is something you learn by doing and knowledge is power regarding learning or remembering things that make your coding and experience of coding easier and enjoyable.
+I also learnt a lot by mistakes, when you spend a lot of time trying to fix a problem or mistake you tend not to forget it easily if it happens again.
+I got most of my inspiration for this website from a module completed on this course called "Love Runner" as I feel this was the first time I put all my new found knowledge into action and it was explained really well for me.
 
-Welcome CaoiveMcTigue,
+When researching along the way, I used sites like:
+W3School - https://www.w3schools.com/default.asp
+Slack - https://slack.com/intl/en-ie/
+Course notes - https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecommerce
+Pinterest - https://www.pinterest.ie/ (I found this great as the images of different website layout encouraged me to do some research into how to get this on my own website and found I was challenging myself.) 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+I used google fonts and inserted the link into the style.css:
+https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto&display=swap
 
-## Gitpod Reminders
+I used font awesome to include icons beside a number of headings in the information section to make these icon appear correctly I had to insert this link:
+<script src="https://kit.fontawesome.com/5f12df0b61.js" crossorigin="anonymous"></script>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I also use google images for all photos seen across the webpage, these are the original url for these photos:
+Hero Image:
+https://www.google.ie/search?q=meditation&tbm=isch&ved=2ahUKEwiEhaaF0M3wAhXhqnEKHUBWC04Q2-cCegQIABAA&oq=meditation&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgYIABAFEB46BggAEAgQHjoECAAQQ1DZ4gRYxO4EYP_5BGgAcAB4AIABQYgBnAOSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=jcKgYMSKNuHVxgPArK3wBA&bih=716&biw=734&hl=en-GB#imgrc=E08N5RQE03jY1M
 
-`python3 -m http.server`
+Staff image Liam:
+https://www.google.ie/search?q=male+profile+pics&tbm=isch&ved=2ahUKEwjytIir0c3wAhWtQUEAHU6eDOwQ2-cCegQIABAA&oq=male+profile+&gs_lcp=CgNpbWcQARgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQQzoECCMQJ1Dy1QFYxJECYPuiAmgAcAB4AIABcIgBkgiSAQQxMS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=6cOgYLKcIK2DhbIPzryy4A4&bih=716&biw=734&hl=en-GB#imgrc=jOolmUuHWja5wM
 
-A blue button should appear to click: _Make Public_,
+Staff image Ivor:
+https://www.google.ie/search?q=male+profile+pics&tbm=isch&ved=2ahUKEwjytIir0c3wAhWtQUEAHU6eDOwQ2-cCegQIABAA&oq=male+profile+&gs_lcp=CgNpbWcQARgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQQzoECCMQJ1Dy1QFYxJECYPuiAmgAcAB4AIABcIgBkgiSAQQxMS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=6cOgYLKcIK2DhbIPzryy4A4&bih=716&biw=734&hl=en-GB#imgrc=jOolmUuHWja5wM&imgdii=MQWWIbECipSdsM
 
-Another blue button should appear to click: _Open Browser_.
+Staff image Gary:
+https://www.google.ie/search?q=male+profile+pics&tbm=isch&ved=2ahUKEwjytIir0c3wAhWtQUEAHU6eDOwQ2-cCegQIABAA&oq=male+profile+&gs_lcp=CgNpbWcQARgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQQzoECCMQJ1Dy1QFYxJECYPuiAmgAcAB4AIABcIgBkgiSAQQxMS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=6cOgYLKcIK2DhbIPzryy4A4&bih=716&biw=734&hl=en-GB#imgrc=MQWWIbECipSdsM&imgdii=34fDxHpoA_hk0M
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Staff image Fiona:
+https://www.google.ie/search?q=female+profile+pics&tbm=isch&ved=2ahUKEwjnuqu90c3wAhU2TxUIHYu3CPgQ2-cCegQIABAA&oq=female+profile+pics&gs_lcp=CgNpbWcQAzICCAAyAggAMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjoGCAAQBxAeOggIABAIEAcQHlC99BNY0PYTYOOAFGgAcAB4AIABPIgBcpIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=D8SgYKf3M7ae1fAPi--iwA8&bih=716&biw=734&hl=en-GB#imgrc=TsBBYyzd5rrExM
 
-A blue button should appear to click: _Make Public_,
+Background form image:
+https://www.google.com/search?q=people+exercising&rlz=1C5CHFA_enIE950&sxsrf=ALeKk01Yf3m7i-OIJ88u9VMLEYC9UDkL0A:1621027138114&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjN8_PVjMrwAhVlRRUIHb_tA2cQ_AUoAXoECAMQAw&biw=1440&bih=764#imgrc=mORmoFWSmMQyEM
 
-Another blue button should appear to click: _Open Browser_.
+membership background image:
+https://www.google.com/search?q=membership+photos&rlz=1C5CHFA_enIE950&sxsrf=ALeKk01g89P7nj9kg7oqTi98lRIa-sGuVg:1621078648122&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjmheXHzMvwAhUDUBUIHXDmAT0Q_AUoAXoECAEQAw&biw=858&bih=764#imgrc=s3dsNdYCPZE10M
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+I used a YouTube link for the video displayed:
+https://youtu.be/g13nVd7OLYs
 
-To log into the Heroku toolbelt CLI you can use:
+I used html and css validators:
+https://validator.w3.org/#validate_by_input
+https://jigsaw.w3.org/css-validator/#validate_by_input
 
-`heroku login -i`
-
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+I deployed my site by following these steps:
